@@ -54,9 +54,6 @@ with OUTPUT_PATH.open("w", newline="", encoding="utf-8") as f:
 
         writer.writerow(row)
 
-print("Fetched:", len(data.get("docs", [])))
-print("After filter:", len(docs))
-print("Saved:", OUTPUT_PATH)
-
-for doc in docs[:5]:
-    print(doc.get("first_publish_year"), "-", doc.get("title"))
+print("Number of books after filter:", len(docs))
+print("CSV file location:", OUTPUT_PATH)
+print("Program finished")
