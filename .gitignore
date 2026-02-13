@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# macOS junk
+.DS_Store
